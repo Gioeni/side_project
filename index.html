@@ -8,4 +8,26 @@
     <h1>Side Project!</h1>
     <script src="script.js"></script>
   </body>
+  <p>
+
+    <h3 id="id1">My Heading 1</h3>
+    
+    <button type="button"
+    onclick="document.getElementById('id1').style.color = 'red'">
+    Click Me!</button>
+
+  </p>
+  <p>
+    <h1 onclick="changeText(this)">Click on this text!</h1>
+        
+        <script>
+        function changeText(id) {
+          id.innerHTML = "Ooops!";
+        }
+        </script> 
+  </p>
+  <body>
+    <h2>Linked Profile Pic</h2>
+    <img src="https://media.licdn.com/dms/image/C5603AQFoXH__4Lmpig/profile-displayphoto-shrink_800_800/0/1630456781106?e=1680134400&v=beta&t=tj4yn6aT6Y7qgbCISQihiXpee-IGWyvsltiInTzkBeA" alt="Linked Profile Pic" style="width:200px">
+  </body>
 </html>
